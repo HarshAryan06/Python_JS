@@ -47,11 +47,11 @@
 # 2 2 2 2 
 # 1 1 1 1 
 
-num = 4
-for row in range(1,num + 1):
-    for col in range(num,0,-1):
-        print(col, end = " ")
-    print()
+# num = 4
+# for row in range(1,num + 1):
+#     for col in range(num,0,-1):
+#         print(col, end = " ")
+#     print()
 
 # 1
 # 1 2
@@ -240,13 +240,20 @@ for row in range(1,num + 1):
 
 
 
+num = 5
+space  = num - 1
+for st in range(2,(num + 1) + 1):
+
+    for col2 in range(1,space + 1):
+        print(" ",end= " ")
+    for col3 in range(1,st):
+        print(col3,end = " ")
+    print()
+    space = space - 1
+  
 
 
 
 
 
-
-
-
-        
 
