@@ -15,10 +15,11 @@ def Revers(val2):
     return res
 
 def emirpno(val3):
-    if prime(val3) and Revers(val3) != val3 and prime(Revers(val3)):
+    rev = Revers(val3)
+    if prime(val3) and rev != val3 and prime(rev):
         return "emirpno"
     return "Not a emirpno"
 
-num = 13
+num = 15
 print(emirpno(num))
 
