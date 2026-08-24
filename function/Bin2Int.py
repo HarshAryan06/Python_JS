@@ -7,7 +7,7 @@ def Bin2Int(num):
         res = res + dig * (2 ** power)
         power = power + 1
         num = num // 10
-    print(res)
+    return res
 
 num = int(input("Enter a number : "))
-Bin2Int(num)
+print(Bin2Int(num))
