@@ -12,6 +12,7 @@ def sum_fact(val2):
         val2 = val2 // 10
     return res
 
+
 def strong(val3):
     if sum_fact(val3) == num:
         return "strong number"
