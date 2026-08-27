@@ -6,5 +6,5 @@ def factorial(val):
     return val * factorial(val - 1)
 
 
-num = -1
+num = 4
 print(factorial(num))
