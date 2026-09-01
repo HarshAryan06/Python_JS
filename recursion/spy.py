@@ -29,5 +29,5 @@ def spy(num,add,prod):
     return spy(num // 10,add + (num % 10),prod * (num % 10))
 num = 123
 add= 0
-prod = 0
+prod = 1
 print(spy(num,add,prod))

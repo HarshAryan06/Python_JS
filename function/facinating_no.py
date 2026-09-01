@@ -3,7 +3,6 @@ def facinating(val):
     for num in range(1,10):
             if str(num) not in ans:
                 return "not a facinating number"
-                break
     return "facinating number"
 
 

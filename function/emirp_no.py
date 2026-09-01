@@ -20,6 +20,6 @@ def emirpno(val3):
         return "emirpno"
     return "Not a emirpno"
 
-num = 15
+num = 17
 print(emirpno(num))
 
