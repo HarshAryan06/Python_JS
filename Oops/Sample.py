@@ -9,7 +9,7 @@ roy =  student()
 print(harsh.loacation)      #object referneces 
 print(student.loacation)    # class refernces
 
-print("-------------------------------")
+print("-------------------------------s")
 harsh.course = "SQL"            
 student.loacation = "Goa"
 print(harsh.course)      # object reference
