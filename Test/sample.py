@@ -23,12 +23,27 @@
 # s = "abs"
 # print(s[::-1])
 
-l = [1,2,1,3,1]
+# l = [1,2,1,3,1]
 
-dup = {}
-for num in l:
-    if num not in dup:
-        dup[num]=1
-    else:
-        dup[num]+=1
-print(dup.keys())
+# dup = {}
+# for num in l:
+#     if num not in dup:
+#         dup[num]=1
+#     else:
+#         dup[num]+=1
+# print(dup.keys())
+
+
+
+class Demo:
+    a = 10
+    _b = 20
+    __c = 30
+
+    def get_value(self):
+        return self.__c
+# print(dir(Demo))
+ob = Demo()
+# print(ob._Demo__c)
+print(ob.get_value())
+
