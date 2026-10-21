@@ -19,7 +19,7 @@ def strong(val3):
     return "not a strong number"
     
 
-    
+    o 
 num = 40585
 print(strong(num))
 

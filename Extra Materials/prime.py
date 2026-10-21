@@ -16,14 +16,16 @@ else :
 
 '''
 
+'''
 num = int(input("Enter a number : "))
 flag = False
 
 for i in range(2,num):
     if num % i == 0:
-        print(" not a prime no")
+        print(" not a prime no")lo
         break 
 
 else :
     print("prime no ")
 
+'''
